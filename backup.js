@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
             const backupInfo = {
                 created: new Date().toISOString(),
                 files: filesToBackup,
@@ -15,7 +15,7 @@
             
         } catch (error) {
             console.error('❌ Backup failed:', error.message);
-=======
+
     listBackups() {
         try {
             const backups = fs.readdirSync(this.backupFolder)
@@ -74,13 +74,12 @@
             
         } catch (error) {
             console.error('❌ Restore failed:', error.message);
->>>>>>> backup
+
             throw error;
         }
     }
 
-<<<<<<< HEAD
-=======
+
     // Delete old backups (keep only latest 5)
     cleanupOldBackups() {
         try {
