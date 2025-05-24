@@ -12,4 +12,15 @@ json
       "image_url": "paris.jpg",
       "rating": 4.8
     },
+{
+      "id": 2,
+      "name": "Bali, Indonesia",
+      "country": "Indonesia",
+      "description": "Tropical paradise with beaches and culture",
+      "price_range": "moderate",
+      "best_season": "dry season",
+      "activities": ["beaches", "temples", "surfing", "yoga"],
+      "image_url": "bali.jpg",
+      "rating": 4.7
+    },
 
