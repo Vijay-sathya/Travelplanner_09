@@ -1,4 +1,4 @@
-
+<<<<<<< HEAD
         try {
             const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
             const backupName = `backup-${timestamp}`;
@@ -21,6 +21,9 @@
                     console.log(`⚠ Warning: ${filename} not found`);
                 }
             });
+
+=======
+
             const backupInfo = {
                 created: new Date().toISOString(),
                 files: filesToBackup,
@@ -32,7 +35,8 @@
                 JSON.stringify(backupInfo, null, 2)
             );
             
-            console.log(`✅ Backup created successfully: ${backupName}`);            return backupName;
+            console.log(`✅ Backup created successfully: ${backupName}`);
+            return backupName;
             
         } catch (error) {
             console.error('❌ Backup failed:', error.message);
@@ -241,6 +245,7 @@ if (command === 'backup') {
 } else {
     console.log(`
 Simple Backup Tool
+==================
 
 To create backup:
   node simple-backup.js backup
@@ -253,4 +258,7 @@ This will create files like:
 - trips-backup-2024-03-15.json  
 - users-backup-2024-03-15.json
     `);
+}
 
+>>>>>>> backup
+>>>>>>> datastructure

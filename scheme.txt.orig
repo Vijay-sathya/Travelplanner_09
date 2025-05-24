@@ -1,4 +1,4 @@
-
+<<<<<<< HEAD
 . USERS TABLE
    - Stores user account information
    - Fields:
@@ -36,5 +36,5 @@ RELATIONSHIPS:
 - One user can have many favorite destinations
 - One destination can be in many trips
 - One destination can be liked by many users
-
+>>>>>>> datastructure
 
