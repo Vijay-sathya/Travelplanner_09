@@ -1,0 +1,13 @@
+DESTINATIONS TABLE
+   - Stores information about travel destinations
+   - Fields:
+     * id: Unique number for each destination
+     * name: Name of the place (like "Paris, France")
+     * country: Which country it's in
+     * description: Short explanation about the place
+     * price_range: budget/moderate/expensive
+     * best_season: Best time to visit
+     * activities: List of things you can do there
+     * image_url: Picture file name
+     * rating: How good it is (0-5 stars)
+
