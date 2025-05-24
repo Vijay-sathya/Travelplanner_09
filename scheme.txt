@@ -1,0 +1,13 @@
+TRIPS TABLE
+   - Stores planned trips by users
+   - Fields:
+     * id: Unique number for each trip
+     * user_id: Which user planned this trip
+     * destination_id: Where they want to go
+     * trip_name: What they call their trip
+     * start_date: When trip starts
+     * end_date: When trip ends
+     * budget: How much money they plan to spend
+     * notes: Extra information about the trip
+     * status: planned/booked/completed/cancelled
+
