@@ -1,0 +1,10 @@
+. USERS TABLE
+   - Stores user account information
+   - Fields:
+     * id: Unique number for each user
+     * username: What they want to be called
+     * email: Their email address
+     * password: Their login password (should be encrypted in real app)
+     * created_date: When they signed up
+
+
