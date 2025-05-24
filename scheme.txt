@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 TRIPS TABLE
    - Stores planned trips by users
    - Fields:
@@ -11,7 +11,7 @@ TRIPS TABLE
      * budget: How much money they plan to spend
      * notes: Extra information about the trip
      * status: planned/booked/completed/cancelled
-=======
+
 FAVORITES TABLE
    - Stores which destinations users like
    - Fields:
@@ -25,5 +25,4 @@ RELATIONSHIPS:
 - One user can have many favorite destinations
 - One destination can be in many trips
 - One destination can be liked by many users
->>>>>>> backup
 
