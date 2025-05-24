@@ -1,4 +1,4 @@
-
+<<<<<<< HEAD
 DESTINATIONS TABLE
    - Stores information about travel destinations
    - Fields:
@@ -11,7 +11,7 @@ DESTINATIONS TABLE
      * activities: List of things you can do there
      * image_url: Picture file name
      * rating: How good it is (0-5 stars)
-
+=======
 
 . USERS TABLE
    - Stores user account information
@@ -22,7 +22,7 @@ DESTINATIONS TABLE
      * password: Their login password (should be encrypted in real app)
      * created_date: When they signed up
 
-
+=======
 
 TRIPS TABLE
    - Stores planned trips by users
@@ -51,4 +51,5 @@ RELATIONSHIPS:
 - One destination can be in many trips
 - One destination can be liked by many users
 
+>>>>>>> dbms
 

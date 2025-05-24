@@ -1,4 +1,4 @@
-
+<<<<<<< HEAD
 json
 {
   "destinations": [
@@ -24,7 +24,7 @@ json
       "image_url": "bali.jpg",
       "rating": 4.7
     },
-
+=======
 
     {
       "id": 3,
@@ -37,8 +37,7 @@ json
       "image_url": "tokyo.jpg",
       "rating": 4.9
     },
-
-
+=======
 
       "id": 4,
       "name": "Cairo, Egypt",
@@ -53,4 +52,5 @@ json
   ]
 }
 
+>>>>>>> dbms
 

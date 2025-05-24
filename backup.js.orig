@@ -1,4 +1,4 @@
-
+<<<<<<< HEAD
 javascript
 const fs = require('fs');
 const path = require('path');
@@ -11,6 +11,7 @@ class BackupRestore {
         // Create backup folder if it doesn't exist
         if (!fs.existsSync(this.backupFolder)) {
             fs.mkdirSync(this.backupFolder);
+=======
 
         try {
             const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
@@ -268,4 +269,6 @@ This will create files like:
 - places-backup-2024-03-15.json
 - trips-backup-2024-03-15.json  
 - users-backup-2024-03-15.json
-    `)
+    `);
+
+>>>>>>> dbms

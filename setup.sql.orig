@@ -1,4 +1,4 @@
-
+<<<<<<< HEAD
 sql
 -- Create destinations table
 CREATE TABLE destinations (
@@ -14,7 +14,7 @@ CREATE TABLE destinations (
     created_date DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 
-
+=======
 
 CREATE TABLE users (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -24,7 +24,7 @@ CREATE TABLE users (
     created_date DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 
-
+=======
 
     {
       "id": 4,
@@ -54,7 +54,7 @@ TABLE favorites (
 -- Insert sample data
 INSERT INTO destinations (name, country, description, price_range, best_season, activities, image_url, rating) VALUES
 ('Paris, France', 'France', 'City of lights with amazing architecture', 'expensive', 'spring', '["museums", "cafes", "shopping", "monuments"]', 'paris.jpg', 4.8),
-'Bali, Indonesia', 'Indonesia', 'Tropical paradise with beaches and culture', 'moderate', 'dry season', '["beaches", "temples", "surfing", "yoga"]', 'bali.jpg', 4.7),
+('Bali, Indonesia', 'Indonesia', 'Tropical paradise with beaches and culture', 'moderate', 'dry season', '["beaches", "temples", "surfing", "yoga"]', 'bali.jpg', 4.7),
 ('Tokyo, Japan', 'Japan', 'Modern city with traditional culture', 'expensive', 'spring', '["technology", "food", "temples", "shopping"]', 'tokyo.jpg', 4.9),
 ('Cairo, Egypt', 'Egypt', 'Ancient history and pyramids', 'budget', 'winter', '["pyramids", "museums", "nile cruise", "history"]', 'cairo.jpg', 4.5);
 
@@ -71,5 +71,5 @@ INSERT INTO favorites (user_id, destination_id) VALUES
 
 
 
-`
+>>>>>>> dbms
 
