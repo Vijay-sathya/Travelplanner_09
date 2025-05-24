@@ -110,13 +110,12 @@ class BackupRestore {
             console.error('❌ Restore failed:', error.message);
 
             throw error;
->>>>>>> dbms
+
         }
     }
 
 
-<<<<<<< HEAD
-=======
+
     // Delete old backups (keep only latest 5)
     cleanupOldBackups() {
         try {
