@@ -1,0 +1,14 @@
+    {
+      "id": 4,
+      "name": "Cairo, Egypt",
+      "country": "Egypt",
+      "description": "Ancient history and pyramids",
+      "price_range": "budget",
+      "best_season": "winter",
+      "activities": ["pyramids", "museums", "nile cruise", "history"],
+      "image_url": "cairo.jpg",
+      "rating": 4.5
+    }
+  ]
+}
+
