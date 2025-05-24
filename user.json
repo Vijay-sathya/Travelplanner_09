@@ -1,0 +1,11 @@
+{
+      "id": 2,
+      "username": "wanderlust",
+      "email": "sarah@example.com",
+      "password": "mypassword",
+      "favorite_destinations": [2, 4],
+      "created_date": "2024-02-20"
+    }
+  ]
+}
+
