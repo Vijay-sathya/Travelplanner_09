@@ -1,9 +1,9 @@
-<<<<<<< HEAD
+
 getAllDestinations() {
         return new Promise((resolve, reject) => {
             const sql = 'SELECT * FROM destinations ORDER BY rating DESC';
             this.db.all(sql, [], (err, rows) => {
-=======
+
     searchDestinations(searchTerm) {
         return new Promise((resolve, reject) => {
             const sql = `
@@ -13,7 +13,7 @@ getAllDestinations() {
             `;
             const term = `%${searchTerm}%`;
             this.db.all(sql, [term, term, term], (err, rows) => {
->>>>>>> backup
+
                 if (err) {
                     reject(err);
                 } else {
@@ -22,7 +22,7 @@ getAllDestinations() {
             });
         });
     }
-<<<<<<< HEAD
+
     getDestinationById(id) {
         return new Promise((resolve, reject) => {
             const sql = 'SELECT * FROM destinations WHERE id = ?';
@@ -30,8 +30,7 @@ getAllDestinations() {
                 if (err) {
                     reject(err);
                 } else {
-                    resolve(row);
-=======
+                    resolve(row)
 
     // Close database connection
     close() {
@@ -42,16 +41,13 @@ getAllDestinations() {
                 } else {
                     console.log('Database connection closed');
                     resolve();
->>>>>>> backup
                 }
             });
         });
     }
-<<<<<<< HEAD
-=======
+
 }
 
 module.exports = DatabaseHelper;
 
->>>>>>> backup
 
