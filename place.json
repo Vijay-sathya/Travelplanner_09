@@ -1,0 +1,15 @@
+json
+{
+  "destinations": [
+    {
+      "id": 1,
+      "name": "Paris, France",
+      "country": "France",
+      "description": "City of lights with amazing architecture",
+      "price_range": "expensive",
+      "best_season": "spring",
+      "activities": ["museums", "cafes", "shopping", "monuments"],
+      "image_url": "paris.jpg",
+      "rating": 4.8
+    },
+
