@@ -1,0 +1,12 @@
+    {
+      "id": 3,
+      "name": "Tokyo, Japan",
+      "country": "Japan",
+      "description": "Modern city with traditional culture",
+      "price_range": "expensive",
+      "best_season": "spring",
+      "activities": ["technology", "food", "temples", "shopping"],
+      "image_url": "tokyo.jpg",
+      "rating": 4.9
+    },
+
