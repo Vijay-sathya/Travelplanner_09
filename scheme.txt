@@ -51,4 +51,11 @@ RELATIONSHIPS:
 - One destination can be in many trips
 - One destination can be liked by many users
 
+SEARCH EXAMPLES:
+- Search "beach" -> finds Bali
+- Search "budget" -> finds Cairo, Bangkok
+- Search "France" -> finds Paris
+- Search "temple" -> finds Bali, Bangkok
+
+
 
