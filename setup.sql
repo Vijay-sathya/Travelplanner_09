@@ -68,8 +68,6 @@ INSERT INTO trips (user_id, destination_id, trip_name, start_date, end_date, bud
 
 INSERT INTO favorites (user_id, destination_id) VALUES
 (1, 1), (1, 3), (2, 2), (2, 4);
-
-
-
-`
+INSERT INTO favorites (user_id, destination_id) VALUES
+(1, 4), (4, 3), (2, 1), (3, 4);
 
