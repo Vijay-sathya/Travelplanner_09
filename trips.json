@@ -39,6 +39,7 @@ json
       "notes": "The Charming Countryside of Provence Lavender fields in the Alpes de Haute Provence",
       "status": "booked"
     }
+
      {
       "id": 4,
       "user_id": 4,
@@ -50,6 +51,18 @@ json
       "notes": "full of interesting museums, attractions,",
       "status": "booked"
     }
+     {
+      "id": 5,
+      "user_id": 5,
+      "destination_id": 5,
+      "trip_name": "Egypt",
+      "start_date": "2024-07-10",
+      "end_date": "2024-07-20",
+      "budget": 3500,
+      "notes": "Luxor's Temples & Tombs Karnak Temple",
+      "status": "booked"
+    }
+
 
 
   ]
