@@ -24,7 +24,7 @@ getAllDestinations() {
     searchDestinations(searchTerm) {
         return new Promise((resolve, reject) => {
             const sql = `
-                SELECT * FROM destinations                 WHERE name LIKE ? OR country LIKE ? OR description LIKE ?
+                SELECT * FROM destinations WHERE name LIKE ? OR country LIKE ? OR description LIKE ?
                 ORDER BY rating DESC
             `;
             const term = `%${searchTerm}%`;

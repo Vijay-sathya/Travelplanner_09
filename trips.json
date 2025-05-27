@@ -23,8 +23,23 @@ json
       "end_date": "2024-07-20",
       "budget": 1500,
       "notes": "Beach time and temple visits",
+   
+    "status": "booked"
+
+    }
+
+   {
+      "id": 3,
+      "user_id": 3,
+      "destination_id": 3,
+      "trip_name": "france",
+      "start_date": "2024-07-10",
+      "end_date": "2024-07-20",
+      "budget": 1500,
+      "notes": "The Charming Countryside of Provence Lavender fields in the Alpes de Haute Provence",
       "status": "booked"
     }
+
   ]
 }
  
