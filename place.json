@@ -59,6 +59,17 @@ json
       "image_url": "capetown.jpg",
       "rating": 4.6
     },
+    {
+      "id": 6,
+      "name": "Reykjavik, Iceland",
+      "country": "Iceland",
+      "description": "Gateway to glaciers, geysers, and the northern lights",
+      "price_range": "expensive",
+      "best_season": "winter",
+      "activities": ["northern lights", "hot springs", "glacier tours", "volcano hikes"],
+      "image_url": "reykjavik.jpg",
+      "rating": 4.7
+    },
   ]
 }
 
