@@ -48,6 +48,17 @@ json
       "image_url": "cairo.jpg",
       "rating": 4.5
     }
+    {
+      "id": 5,
+      "name": "Cape Town, South Africa",
+      "country": "South Africa",
+      "description": "Coastal city with mountains, wine, and wildlife",
+      "price_range": "moderate",
+      "best_season": "summer",
+      "activities": ["hiking", "beaches", "wine tours", "wildlife"],
+      "image_url": "capetown.jpg",
+      "rating": 4.6
+    },
   ]
 }
 
