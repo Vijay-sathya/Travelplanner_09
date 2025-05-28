@@ -70,6 +70,17 @@ json
       "image_url": "reykjavik.jpg",
       "rating": 4.7
     },
+    {
+      "id": 7,
+      "name": "Barcelona, Spain",
+      "country": "Spain",
+      "description": "Art and architecture meet beaches and nightlife",
+      "price_range": "moderate",
+      "best_season": "spring",
+      "activities": ["architecture", "beaches", "food", "nightlife"],
+      "image_url": "barcelona.jpg",
+      "rating": 4.6
+    },
   ]
 }
 
