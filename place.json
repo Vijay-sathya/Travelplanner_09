@@ -81,6 +81,17 @@ json
       "image_url": "barcelona.jpg",
       "rating": 4.6
     },
+    {
+      "id": 7,
+      "name": "Banff, Canada",
+      "country": "Canada",
+      "description": "Stunning mountain town with turquoise lakes",
+      "price_range": "moderate",
+      "best_season": "summer",
+      "activities": ["hiking", "canoeing", "wildlife", "skiing"],
+      "image_url": "banff.jpg",
+      "rating": 4.8
+    }
   ]
 }
 
