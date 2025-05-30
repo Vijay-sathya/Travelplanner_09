@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<<<<<<< HEAD
+<html lang="engl">
+=======
+<html lang="eng">
+>>>>>>> html-pages
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Travel Planner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🌍 Travel Planner</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="search.html">Search</a>
+            <a href="login.html" class="active">Login</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="login-container">
+            <h2>🔐 Login to Your Account</h2>
+            
+            <form class="login-form">
+                <div class="form-group">
+                    <label for="email">📧 Email:</label>
+                    <input type="email" id="email" required placeholder="your.email@example.com">
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">🔑 Password:</label>
+                    <input type="password" id="password" required placeholder="Your secure password">
+                </div>
+                
+                <button type="button" onclick="loginUser()">🚀 Login</button>
+            </form>
+            
+            <p>Don't have an account? <a href="#" onclick="showSignup()">✨ Sign up here</a></p>
+        </div>
+    </main>
+
+    <script>
+        function loginUser() {
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+            
+            if (email && password) {
+                alert('🎉 Login successful! Welcome to Travel Planner!');
+            } else {
+                alert('⚠️ Please fill in all fields');
+            }
+        }
+        
+        function showSignup() {
+            alert('📝 Signup feature coming soon! Stay tuned for amazing travel deals!');
+        }
+    </script>
+</body>
+</html>
