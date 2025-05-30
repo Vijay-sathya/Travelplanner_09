@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<<<<<<< HEAD
+<html lang="england">
+=======
+<html lang="english">
+>>>>>>> html-pages
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Planner - Find Your Dream Destination</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🌍 Travel Planner</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="search.html">Search</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Find Your Next Adventure!</h2>
+            <p>Discover amazing places around the world</p>
+            
+            <div class="search-box">
+                <input type="text" id="destination" placeholder="Where do you want to go?">
+                <button onclick="searchDestination()">Search</button>
+            </div>
+        </section>
+
+        <section class="popular-places">
+            <h3>Popular Destinations</h3>
+            <div class="places-grid">
+                <div class="place-card">
+                    <img src="https://via.placeholder.com/200x150/4285f4/ffffff?text=Paris" alt="Paris">
+                    <h4>Paris, France</h4>
+                    <p>₹41,500 per person</p>
+                    <button class="book-btn">View Details</button>
+               </div>
+                
+                <div class="place-card">
+                    <img src="https://via.placeholder.com/200x150/34a853/ffffff?text=Tokyo" alt="Tokyo">
+                    <h4>Tokyo, Japan</h4>
+		    <p>₹66,400 per person</p>
+                    <button class="book-btn">View Details</button>
+                </div>
+                
+                <div class="place-card">
+                    <img src="https://via.placeholder.com/200x150/ea4335/ffffff?text=London" alt="London">
+                    <h4>London, UK</h4>
+                    <p>₹49,800 per person</p>
+                    <button class="book-btn">View Details</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Travel Planner. Made by Frontend Developer</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
+
+

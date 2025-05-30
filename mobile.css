@@ -1,0 +1,121 @@
+/* Mobile phones (up to 768px) */
+@media screen and (max-width: 768px) {
+    
+    /* Make header work on mobile */
+    header {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px;
+    }
+    
+    header h1 {
+        margin-bottom: 10px;
+    }
+    
+    nav {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    /* Make main content fit on mobile */
+    main {
+        padding: 10px;
+    }
+    
+    /* Make hero section work on mobile */
+    .hero {
+        padding: 20px 15px;
+    }
+    
+    .hero h2 {
+        font-size: 1.8rem;
+    }
+    
+    .hero p {
+        font-size: 1rem;
+    }
+    
+    /* Make search box work on mobile */
+    .search-box {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .search-box input,
+    .search-box button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    /* Make place cards work on mobile */
+    .places-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    
+    /* Make forms work on mobile */
+    .search-form,
+    .login-form {
+        padding: 20px 15px;
+        margin: 10px;
+    }
+    
+    /* Make buttons bigger for mobile */
+    .book-btn,
+    .search-form button,
+    .login-form button {
+        padding: 15px;
+        font-size: 18px;
+    }
+}
+
+/* Small mobile phones (up to 480px) */
+@media screen and (max-width: 480px) {
+    
+    .hero h2 {
+        font-size: 1.5rem;
+    }
+    
+    .popular-places h3 {
+        font-size: 1.5rem;
+    }
+    
+    .place-card h4 {
+        font-size: 1.1rem;
+    }
+    
+    /* Make navigation easier on small screens */
+    nav a {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+}
+
+/* Tablets (769px to 1024px) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    
+    .places-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    
+    .search-box {
+        max-width: 600px;
+    }
+}
+
+/* Simple package.json for beginners */
+{
+  "name": "travel-planner-frontend",
+  "version": "1.0.0",
+  "description": "Simple travel planner website - Frontend by Sarah",
+  "main": "index.html",
+  "scripts": {
+    "start": "echo 'Open index.html in your browser!'",
+    "test": "echo 'No tests yet - learning step by step!'"
+  },
+  "keywords": ["travel", "planner", "beginner", "html", "css", "javascript"],
+  "author": "Sarah (Frontend Developer - Beginner)",
+  "license": "MIT"
+}

@@ -1,0 +1,20 @@
+:root {
+    /* Indian-inspired color palette */
+<<<<<<< HEAD
+    --saffron: #FF9933333333333333333333333333333333333333333333333333333333333333333333;
+=======
+    --saffron: #FF99333;
+>>>>>>> css-styling
+    --white: #FFFFFF;
+    --green: #138808;
+    --navy-blue: #000080;
+    --lotus-pink: #FF69B4;
+    --golden: #FFD700;
+    --terracotta: #E2725B;
+    --monsoon-blue: #4A90E2;
+    
+    /* Pricing colors */
+    --rupee-green: #2E8B57;
+    --budget-orange: #FF8C00;
+    --premium-purple: #8A2BE2;
+}
